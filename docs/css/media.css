@@ -65,7 +65,7 @@
     body:has(#about:target) nav a[href="#about"],
     body:has(#resume:target) nav a[href="#resume"],
     body:has(#portfolio:target) nav a[href="#portfolio"],
-    body:has(#home:target) nav a[href="#home"],
+    body:has(#contact:target) nav a[href="#contact"],
     body:has(#blog:target) nav a[href="#blog"],
     body:not(:has(:target)) nav a[href="#home"] {
         color: var(--yellow-color);
