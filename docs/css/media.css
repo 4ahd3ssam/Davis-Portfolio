@@ -74,10 +74,10 @@
         width: 80%;
     }
     .service-item {
-        width: calc( 32% - 20px); /*??*/
+        width: calc( 100% / 3 - 30px); /*??*/
     }
     .portfolio .images picture {
-        width: calc( 100% / 3 - 20px);
+        width: calc( 100% / 3 - 30px);
     }
     .about .content picture,
     .about .content .details {
