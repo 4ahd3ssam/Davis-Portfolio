@@ -283,10 +283,10 @@ body:has(#check:checked) .nav-icon .menu-close::after {
 .services-items {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    row-gap: 40px;
-    column-gap: 40px;
+    row-gap: 30px;
+    column-gap: 30px;
 }
 .service-item {
     background-color: #101624;
@@ -509,6 +509,7 @@ body:has(#check:checked) .nav-icon .menu-close::after {
 .portfolio .images {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     row-gap: 20px;
     column-gap: 20px;
 }
@@ -792,8 +793,8 @@ body:has(#check:checked) .nav-icon .menu-close::after {
 }
 .visit-icon {
     margin-top: 20px;
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border: 1px solid #a9adb85d;
     border-radius: 50px;
     display: flex;
