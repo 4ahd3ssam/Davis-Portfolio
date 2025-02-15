@@ -1,0 +1,134 @@
+@media screen and (min-width: 400px) {
+    .container {
+        width: 80%;
+    }
+}
+@media screen and (min-width: 640px) {
+    .container {
+        width: 70%;
+    }
+}
+@media screen and (min-width: 768px) {
+    .service-item {
+        width: calc(50% - 20px);
+    }
+    .portfolio .images picture {
+        width: calc(50% - 20px);
+    }
+    .reviews-items .review-item {
+        width: calc(50% - 30px);
+    }
+    .blog-item {
+        width: calc(50% - 30px);
+    }
+}
+@media screen and (min-width: 1024px) {
+    nav {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start;
+        justify-content: center;
+        height: 100px;
+    }
+    .nav-icon {
+        display: none;
+    }
+    .nav-links {
+        position: static;
+        width: auto;
+        max-height: fit-content;
+        background-color: transparent;
+        padding-left: 20px;
+        display: flex;
+        align-items: center;
+        column-gap: 20px;
+    }
+    .nav-links ul {
+        flex-direction: row;
+        margin: 0;
+    }
+    .nav-links ul a {
+        text-transform: uppercase;
+    }
+    .nav-links .call {
+        display: block;
+        display: flex;
+        color: #a9adb8;
+    }
+    .nav-links .call span {
+        color: var(--yellow-color)
+    }
+    .nav-links .call i {
+        padding-right: 10px;
+    }
+    body:has(#home:target) nav a[href="#home"],
+    body:has(#about:target) nav a[href="#about"],
+    body:has(#resume:target) nav a[href="#resume"],
+    body:has(#portfolio:target) nav a[href="#portfolio"],
+    body:has(#home:target) nav a[href="#home"],
+    body:has(#blog:target) nav a[href="#blog"],
+    body:not(:has(:target)) nav a[href="#home"] {
+        color: var(--yellow-color);
+    }
+    .container {
+        width: 80%;
+    }
+    .service-item {
+        width: calc( 32% - 20px); /*??*/
+    }
+    .portfolio .images picture {
+        width: calc( 100% / 3 - 20px);
+    }
+    .about .content picture,
+    .about .content .details {
+        width: calc(50% - 30px);
+    }
+    .skills .content .details,
+    .skills .content .status {
+        width: calc(50% - 30px);
+    }
+    .resume .resume-item {
+        width: calc(50% - 30px);
+    }
+    .reviews-items .review-item {
+        width: calc(33.333% - 30px);
+    }
+    .blog-item {
+        width: calc(33.333% - 30px);
+    }
+    .contact-sections .section {
+        width: calc(50% - 30px);
+    }
+    .head {
+        position: relative;
+        margin-bottom: 10px;
+    }
+    .head .large-head {
+        width: 100%;
+        display: block;
+        font-size: 90px;
+        font-weight: 700;
+        color: rgba(157, 158, 163, 0.116);
+    }
+    .head .small-head {
+        position: absolute;
+        top: 17%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    
+}
+@media screen and (min-width: 1280px) {
+    nav {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        height: 50px;
+    }
+    .nav-links {
+        padding-right: 20px;
+    }
+}
+@media screen and (min-width: 1536px) {
+    
+}
