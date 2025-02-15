@@ -792,8 +792,8 @@ body:has(#check:checked) .nav-icon .menu-close::after {
 }
 .visit-icon {
     margin-top: 20px;
-    width: 50px;
-    height: 50px;
+    width: 40px;
+    height: 40px;
     border: 1px solid #a9adb85d;
     border-radius: 50px;
     display: flex;
